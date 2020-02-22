@@ -1,0 +1,199 @@
+
+h3
+{
+	color: #05A854 ;
+	font-size: 2em;
+	font-family: Stencil Std, fantasy;
+	margin-left:50px;
+	animation-duration: 5s;
+	animation-name: slidein;
+}
+
+h1
+{
+	position: relative;
+	top: -100px;
+	left: -20px;
+	margin-left: 40px;
+	font-size: 4em;
+	border: solid;
+	border-radius: 10px;
+	box-shadow: 10px 5px 5px ;
+	background-color: white;
+	text-align: center;
+		animation-duration: 10s;
+	animation-name: slidein;
+}
+
+.info
+{
+	position: relative;
+	right: -30px;
+	top: 70px;
+	border: solid;
+	border-radius: 10px;
+	width: 15%;
+	box-shadow: 10px 5px 5px ;
+	background-color: white;
+	animation: masuperanimation 5s;			
+}
+
+.perso
+{
+	width: 40%;
+	position: relative;
+	left: 1230px;
+	top:-260px;
+	
+}
+
+.compétences
+{
+	border: solid;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+header
+{
+	 box-shadow: 8px 8px 12px black;
+	background-color:#2DAFD5;	
+	margin-top: 50px;
+    margin-left: 50px;
+	margin-right: 50px;	
+	
+}
+
+body
+{
+	background-color: white;
+}
+
+.exp
+{
+	position:relative;
+	top:-200px;
+	margin-left:50px;
+	 
+}
+
+.diplome
+{
+	position:relative;
+	top:-200px;
+	margin-left:50px;
+}
+.divers{
+	margin-left:100px;
+}
+
+
+figure {
+display: inline-block;	
+}
+img{
+	width: 100px;
+	height: 100px;
+}	
+    
+
+}
+.image
+{
+	    	
+	border: 3px;
+	border-radius:20px;
+	
+	
+}		
+.boyka{
+	position: relative;
+	right: -1300px;
+	top: -320px;
+}
+.contact{
+    text-align: center;
+	justify-content: flex-end;
+    margin: auto;  
+	animation-duration: 10s;
+	animation-name: slidein;
+	
+}
+.button a{
+    color: black;	
+	display: block;
+	text-decoration: none;
+	margin: 5%
+	height: 10%;
+	line-height: 3em;	
+	text-align: center;
+	border: 1px solid black;
+	width: 35%;
+	background-color: white;
+	-moz-border-radius:20px;
+    -webkit-border-radius:20px;
+     box-shadow: 8px 8px 12px black;
+	-moz-box-shadow: 8px 8px 12px ;
+    -webkit-box-shadow: 8px 8px 12px ;
+    position: relative;
+    top: -180px;
+    left: 480px;	
+}
+ a:hover{
+	color: blue;
+	cursor: grab;
+	box-shadow: 8px 8px 12px black;
+	background-color: #05A854 ;
+}
+.button:hover{
+	color:blue;
+}
+}
+.button a:link{
+	color: blue;
+	box-shadow: 8px 8px 12px black;
+}
+hr {
+	width: 50%;
+    border: none;
+    border-top: 6px double #2DAFD5;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes masuperanimation {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(150px);
+    }
+
+    100% {
+        transform: translateX(150px) rotate(30deg);
+    }
+}
