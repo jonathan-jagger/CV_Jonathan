@@ -12,7 +12,7 @@ h3
 h1
 {
 	position: relative;
-	top: -100px;
+	top: -140px;
 	left: -20px;
 	margin-left: 40px;
 	font-size: 4em;
@@ -21,18 +21,18 @@ h1
 	box-shadow: 10px 5px 5px ;
 	background-color: white;
 	text-align: center;
-		animation-duration: 10s;
+	animation-duration: 10s;
 	animation-name: slidein;
 }
 
 .info
 {
 	position: relative;
-	right: -30px;
-	top: 70px;
+	right: -20px;
+	top: 50px;
 	border: solid;
 	border-radius: 10px;
-	width: 15%;
+	width: 25%;
 	box-shadow: 10px 5px 5px ;
 	background-color: white;
 	animation: masuperanimation 5s;			
@@ -42,8 +42,22 @@ h1
 {
 	width: 40%;
 	position: relative;
-	left: 1230px;
+	left: 730px;
 	top:-260px;
+	
+}
+
+.pic {
+    transform: rotate(90deg);
+	border-radius: 50%;
+    margin: 25px 5px;
+    margin-left: 20%;
+    width: 300px;
+    height: auto;
+	object-fit: cover;
+	position: relative;
+	top: -100px;
+	right: -100px;
 	
 }
 
@@ -72,7 +86,7 @@ body
 .exp
 {
 	position:relative;
-	top:-200px;
+	top:-80px;
 	margin-left:50px;
 	 
 }
@@ -80,37 +94,29 @@ body
 .diplome
 {
 	position:relative;
-	top:-200px;
+	top: -40px;
 	margin-left:50px;
 }
 .divers{
 	margin-left:100px;
 }
-
+details{
+	margin-left: 50px;
+	position: relative;
+	top: -200px;
+}
 
 figure {
 display: inline-block;	
 }
+
 img{
 	width: 100px;
 	height: 100px;
 }	
-    
+ 
+}
 
-}
-.image
-{
-	    	
-	border: 3px;
-	border-radius:20px;
-	
-	
-}		
-.boyka{
-	position: relative;
-	right: -1300px;
-	top: -320px;
-}
 .contact{
     text-align: center;
 	justify-content: flex-end;
@@ -123,7 +129,7 @@ img{
     color: black;	
 	display: block;
 	text-decoration: none;
-	margin: 5%
+	margin: 5%;
 	height: 10%;
 	line-height: 3em;	
 	text-align: center;
@@ -136,8 +142,8 @@ img{
 	-moz-box-shadow: 8px 8px 12px ;
     -webkit-box-shadow: 8px 8px 12px ;
     position: relative;
-    top: -180px;
-    left: 480px;	
+    top: -140px;
+    left: 285px;	
 }
  a:hover{
 	color: blue;
